@@ -42,16 +42,16 @@
         <form>
             <h5>Datos Personales</h5>
             <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Nombre completo">
+                <input type="text" class="form-control" placeholder="Nombre completo" required>
             </div>
             <div class="mb-3">
-                <input type="number" class="form-control" placeholder="Cédula">
+                <input type="number" class="form-control" placeholder="Cédula" min="1000000" mazx="9999999999" required>
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control" placeholder="Email" required>
             </div>
             <div class="mb-3">
-                <input type="tel" class="form-control" placeholder="Teléfono">
+                <input type="number" class="form-control" placeholder="Teléfono" required>
             </div>
 
             <h5>Datos del Crédito</h5>
@@ -66,7 +66,7 @@
                 </select>
             </div>
             <div class="mb-3">
-                <input type="number" class="form-control" placeholder="Monto solicitado">
+                <input type="number" class="form-control" placeholder="Monto solicitado" min="1000000" required>
             </div>
             <div class="mb-3">
                 <select class="form-select">
@@ -79,7 +79,7 @@
                 </select>
             </div>
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Destino del crédito"></textarea>
+                <textarea class="form-control" placeholder="Destino del crédito" required></textarea>
             </div>
 
             <h5>Datos Laborales</h5>
@@ -87,10 +87,10 @@
                 <input type="text" class="form-control" placeholder="Empresa donde trabaja">
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Cargo">
+                <input type="text" class="form-control" placeholder="Cargo" required>
             </div>
             <div class="mb-3">
-                <input type="number" class="form-control" placeholder="Ingresos mensuales">
+                <input type="number" class="form-control" placeholder="Ingresos mensuales" required>
             </div>
 
             <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
