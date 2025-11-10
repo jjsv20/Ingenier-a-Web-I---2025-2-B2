@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+/* Logo */
+.navbar .logo {
+    color: #58a756;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .logo:hover {
+    color: #387a3a;
+    text-decoration: none;
+}
+
+/* Links de la navbar */
+.navbar-nav .nav-link {
+    color: #ffffff; 
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #387a3a; 
+}
+
+/* Link activo */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #387a3a; 
+    font-weight: bold;
+}
+
+
